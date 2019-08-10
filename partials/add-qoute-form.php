@@ -23,6 +23,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['add_to_qoute'])){
                         <label for="whose-qoute">Whose qoute</label>
                         <input type="text" class="form-control" id="whose-qoute" name="whose_qoute">
                     </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" name="username">
+                    </div>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="submit" name="add_to_qoute" class="btn btn-primary">Submit</button>
                 </form>
